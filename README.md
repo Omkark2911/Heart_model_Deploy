@@ -40,13 +40,23 @@ The model is deployed using Streamlit, providing a user-friendly interface where
 The model was evaluated using classification metrics such as:
 
 Accuracy
+
 Precision
+
 Recall
+
 F1-score
+
 Confusion Matrix
+
 ▶️ Run Locally
 pip install -r requirements.txt
+pip3 install streamlit
+pip3 install joblib
+pip3 install scikit-learn
+
 streamlit run app.py
+
 👨‍💻 Author
 
 Omkar Kambli
